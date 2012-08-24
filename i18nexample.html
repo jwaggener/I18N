@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title>i18n Example</title>
+    <script src="libs/require.js" ></script>
+  </head>
+  <body>
+    
+    <script>
+      requirejs.config({
+        config: {
+          //Set the config for the i18n
+          //module ID
+          i18n: {
+              locale: 'es-mx'
+          }
+        } 
+      });
+      require(["main"]);
+    </script>
+    
+  </body>
+</html>
